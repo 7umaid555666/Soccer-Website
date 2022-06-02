@@ -7,11 +7,66 @@
 .container{
     height: 100vh;
     width: 100% ;
-    background-image: url(images/green.jpg);
+    background-image: url(images/background.jpg);
     background-position: center;
     background-size: cover;
     padding-left: 5%;
     padding-right: 5%;
     box-sizing: border-box;
     position: relative;
+}
+.logo{
+
+    height: 150;
+    width: 150;
+
+}
+.navbar{
+    width: 100%;
+    height: 20vh;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    
+}
+nav {
+    flex: 1;
+    padding-left: 60px;
+}
+nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 30px;
+    font-size: 25px;
+}
+nav ul li a{
+    text-decoration: none;
+    color:#EDF0DA;
+}
+li a:hover{
+    background-color:#D2D4C8;
+    padding: 15;
+}
+.content {
+   display: flex;
+   align-items: center;
+    color: #EDF0DA;
+}
+
+.content h1 {
+    font-size: 80px;
+}
+.content p {
+    font-size: 30px;
+}
+
+.txt-col{
+    margin-left: 30%;
+}
+
+.img-col{
+ margin-top: 20%;
+ width: 500px;
+ height: 400px;
+ margin-left: 20%;
 }
